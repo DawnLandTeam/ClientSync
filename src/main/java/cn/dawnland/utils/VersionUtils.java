@@ -14,7 +14,7 @@ import java.util.List;
 public class VersionUtils {
 
     private static HttpUtils httpUtils = HttpUtils.INSTANCE;
-    private final static String versionUrl = "https://dawnland.cn/13/version.json";
+    private final static String versionUrl = "https://dawnland.cn/13/ClientUpdate/1.16.5-MOD-Server/version.json";
     private static ObjectMapper objectMapper = new ObjectMapper();
 
     public static List<VersionResponse> getVersions(){
